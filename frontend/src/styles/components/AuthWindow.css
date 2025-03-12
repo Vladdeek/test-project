@@ -1,0 +1,58 @@
+form {
+	background-color: rgba(255, 255, 255, 0.66);
+	backdrop-filter: blur(5px);
+	padding: 40px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+.login-form {
+	display: none;
+}
+.round-img {
+	height: 45px;
+	border-radius: 25px;
+	padding: 2px;
+	margin: 0 15px;
+	background-color: white;
+	cursor: pointer;
+}
+.vk {
+	background-color: #4285b4 !important;
+}
+.github {
+	padding: 0;
+}
+.auth-submit {
+	color: white;
+	background-color: #6f80f1;
+	padding: 5px 30px;
+	border: none;
+	border-radius: 10px;
+	font-size: 1.25rem;
+	margin: 25px 0;
+}
+.auth-input {
+	border-radius: 10px;
+	border: none;
+	height: 40px;
+	width: 300px;
+	padding: 10px;
+	margin: 10px 0;
+	background-color: rgba(255, 255, 255, 0.75);
+}
+.auth-title {
+	font-size: 1.5rem;
+	margin-bottom: 25px;
+}
+.auth-with {
+	font-size: 1rem;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+.auth-toggle-link {
+	cursor: pointer;
+	margin: 0;
+	&:hover {
+		text-decoration: underline;
+	}
+}

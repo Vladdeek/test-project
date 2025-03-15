@@ -66,7 +66,7 @@ const AuthWindow = () => {
 		console.log(userData)
 
 		try {
-			let response = await fetch('/users/', {
+			let response = await fetch('/reg/', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(userData),

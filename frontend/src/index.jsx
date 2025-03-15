@@ -7,10 +7,11 @@ import './styles/style.css'
 
 //Импорт страниц
 import AuthPage from './pages/AuthPage'
+import MainPage from './pages/MainPage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
 	<>
-		<AuthPage />
+		<MainPage />
 	</>
 )

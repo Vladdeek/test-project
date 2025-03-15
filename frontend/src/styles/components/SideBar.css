@@ -1,0 +1,45 @@
+:root {
+	--color1: #6f80f1;
+}
+.side-bar {
+	background-color: white;
+	width: 325px;
+	height: 100vh;
+}
+.profile-con {
+	background-color: var(--color1);
+	border-radius: 0 45px 45px 0;
+	padding: 25px;
+}
+.profile {
+	background-color: white;
+	border-radius: 25px;
+	padding: 5px;
+}
+.profile-img {
+	border-radius: 50%;
+}
+.profile-name {
+	margin: 0 20px;
+	width: 154px;
+}
+.main-btn {
+	border-radius: 25px;
+	border: 2px solid var(--color1);
+	color: var(--color1);
+	background-color: transparent;
+	height: 50px;
+	width: 250px;
+	margin: 7.5px 0;
+	font-size: 1.25rem;
+	padding: 0 15px;
+}
+.btns-con {
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+.side-bar-con-info {
+	margin: 31px 0;
+	width: 294px;
+}
